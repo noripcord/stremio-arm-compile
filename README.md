@@ -4,7 +4,7 @@ Hi! If you have an ARM computer, use linux (only ubuntu 20 is supported for now)
 
 sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/noripcord/stremio-arm-compile/main/ubuntu_20.sh)"
 
-Give it your password, 'cause it's sudo. Also, be sure to have curl installed on your system. Give it a time, it will install, for fucksakee
+Give it your password, 'cause it's sudo. Also, be sure to have curl installed on your system. Give it time, it will install, for fucksakee
 
 
 FYI: Stremio doesn't work well anymore on new macs. I figure it's 'cause they're making it work badly, like on purpose. So if you use a new mac (with the M1 chip) you can install a virtual machine with linux and install Stremio with this script.
