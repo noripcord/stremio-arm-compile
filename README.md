@@ -1,6 +1,6 @@
 # stremio-arm-compile
 
-Hi! If you have an ARM computer, use linux (ubuntu 20 for now) and would like to use Stremio, here's what you should do: 
+Hi! If you have an ARM computer, use linux (only ubuntu 20 is supported for now) and would like to use Stremio, here's what you should do: 
 
 sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/noripcord/stremio-arm-compile/main/ubuntu_20.sh)"
 
