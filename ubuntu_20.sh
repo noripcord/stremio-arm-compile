@@ -15,7 +15,6 @@ qmake
 make -f release.makefile
 apt-get -y install nodejs
 cp ./server.js ./build/ && ln -s "$(which node)" ./build/node
-./build/stremio
 
 # cleanup
 
@@ -29,3 +28,9 @@ apt-get -y remove qt5-qmake
 apt-get -y remove qtcreator
 
 apt-get -y autoremove
+
+# erase everything except build
+ls -1 | grep -v "build$" | xargs -I% rm -rf "%"
+
+# run
+./build/stremio
