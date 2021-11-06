@@ -1,6 +1,6 @@
 #!/bin/bash
 
-apt-get install git
+apt-get -y install git
 git clone --recurse-submodules -j8 git://github.com/Stremio/stremio-shell.git
 apt-get update
 apt-get -y install cmake
