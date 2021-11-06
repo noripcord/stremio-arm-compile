@@ -1,5 +1,5 @@
 # Script to compile [Stremio](https://www.stremio.com) on GNU/Linux Debian flavors 
-### (Tested on Debian 11, Ubuntu 20LTS, both on ARM64 metal)
+### (Tested on Ubuntu 20LTS, on ARM64 metal)
 
 Exec this on a terminal:
 ```
@@ -9,6 +9,7 @@ Exec this on a terminal:
 Give it time, it will install, for chrissake
 
 # If you don't wanna compile
+### (Tested on Debian 11)
 
 There's a release here with the binary already compiled for ARM64.
 
