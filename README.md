@@ -1,11 +1,27 @@
-# stremio-arm-compile
+# Script to compile Stremio on GNU/Linux Debian flavors 
+### (Tested on Debian 11, Ubuntu 20LTS, both on ARM64 metal)
 
-Hi! If you have an ARM computer, use linux (only ubuntu 20 is supported for now) and would like to use Stremio, here's what you should do: 
+Exec this on a terminal:
+```
+% sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/noripcord/stremio-arm-compile/main/debian.sh)"
+```
 
-sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/noripcord/stremio-arm-compile/main/ubuntu_20.sh)"
+Give it time, it will install, for chrissake
 
-Give it your password, 'cause it's sudo. Also, be sure to have curl installed on your system. Give it time, it will install, for fucksakee
+# If you don't wanna compile
 
+There's a release here with the binary already compiled for ARM64.
 
-FYI: Stremio doesn't work well anymore on new macs. I figure it's 'cause they're making it work badly, like on purpose. So if you use a new mac (with the M1 chip) you can install a virtual machine with linux and install Stremio with this script.
+Download the release, extract it, install the dependencies:
+```
+% sudo /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/noripcord/stremio-arm-compile/main/debian_dependencies.sh)"
+```
+
+and link node in the build folder:
+```
+% ln -s "$(which node)" <path_to_stremio_build_folder_that_you_downloaded>
+```
+
+and you'll be ready to go.
+
 
