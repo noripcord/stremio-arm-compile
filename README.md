@@ -1,4 +1,4 @@
-# Script to compile Stremio on GNU/Linux Debian flavors 
+# Script to compile [Stremio](https://www.stremio.com) on GNU/Linux Debian flavors 
 ### (Tested on Debian 11, Ubuntu 20LTS, both on ARM64 metal)
 
 Exec this on a terminal:
